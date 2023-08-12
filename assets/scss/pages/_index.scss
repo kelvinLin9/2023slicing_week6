@@ -1,3 +1,59 @@
-.index-title {
-  font-size: 100px;
+.bg-banner {
+  background-image: url(../assets/images/event/13.jpg);
+  height: 518px;
+  background-position: center center;
+}
+
+.section2-img {
+  width: 72px;
+  height: 72px;
+  @media (max-width:768px) {
+    width: 40px;
+    height: 40px;
+  }
+}
+.explore-button {
+  height: 196px;
+  @media (max-width:768px) {
+    height: 112px;
+  }
+}
+
+
+.sparkler-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.activity-card-img {
+  height: 225px;
+}
+
+.bg-online-img {
+  background-image: url(../assets/images/event/online.jpg);
+  background-repeat:no-repeat;
+  height: 317px;
+  background-position: center center;
+  background-size:auto auto;
+}
+
+.letter-spacing-5 {
+  letter-spacing: 5px;
+}
+
+
+.albums-card-img {
+  height: 274px;
+}
+.albums-sticker {
+  rotate: -4deg;
+}
+.albums-card-2 {
+  rotate: 2deg;
+}
+.albums-card-3 {
+  rotate: -2deg;
+}
+.albums-card-4 {
+  rotate: 2deg;
 }

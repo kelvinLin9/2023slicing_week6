@@ -1,0 +1,27 @@
+.cursor-pointer {
+  cursor: pointer;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Noto+Serif+TC&family=Yeseva+One&display=swap');
+
+
+
+body {
+  font-family: 'Noto Serif TC', serif;
+}
+
+.text-title {
+  font-family: 'Yeseva One', cursive;
+}
+.text-title-content {
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+.category-button {
+  border-left: 4px solid #000 !important;
+  &:hover{
+    background: #000;
+    color: #fff !important; 
+  }
+}
