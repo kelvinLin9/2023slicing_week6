@@ -24,11 +24,13 @@
 // 7. Optionally include utilities API last to generate classes based on the Sass map in `_utilities.scss`
 @import "bootstrap/scss/utilities/api";
 
-
+@import "bootstrap/scss/bootstrap";
 
 @import './base/reset';
 @import './base/base';
 @import './utils/helpers';
+@import './components/modal';
+
 
 @import './layout/header.scss';
 @import './layout/footer.scss';

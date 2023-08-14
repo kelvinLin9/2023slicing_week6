@@ -4,7 +4,7 @@
 
 
 
-
+// index
 .text-title {
   font-family: 'Yeseva One', cursive;
 }
@@ -19,3 +19,16 @@
     color: #fff !important; 
   }
 }
+
+
+.activity-card-img {
+  height: 225px;
+}
+.activity-long-card-img {
+  background-image: url(../images/event/04.jpg);
+  background-repeat:no-repeat;
+  height: 225px;
+  background-position: center center;
+  background-size: cover;
+}
+
