@@ -21,14 +21,30 @@
 }
 
 
+
 .sparkler-icon {
   width: 24px;
   height: 24px;
 }
+.hover-text-decoration:hover{
+  text-decoration: underline;
+}
+.hover-bg-yellow:hover{
+  background-color: yellow;
+  border-radius: 50px;
+}
+
+
+
+
+
 
 .activity-card-img {
   height: 225px;
 }
+
+
+
 
 .bg-online-img {
   background-image: url(../images/event/online.jpg);
