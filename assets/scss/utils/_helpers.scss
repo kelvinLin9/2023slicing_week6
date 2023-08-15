@@ -23,7 +23,9 @@
 
 .activity-card-img {
   height: 225px;
+  object-fit: cover;
 }
+
 .activity-long-card-img {
   background-image: url(../images/event/04.jpg);
   background-repeat:no-repeat;
