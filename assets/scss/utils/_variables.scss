@@ -603,8 +603,18 @@ $aspect-ratios: (
 
 // scss-docs-start font-variables
 // stylelint-disable value-keyword-case
-$font-family-sans-serif:      system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+// $font-family-sans-serif:      system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
 $font-family-monospace:       SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+
+
+// scss-docs-start font-variables
+// stylelint-disable value-keyword-case
+$font-family-sans-serif: 'Yeseva One', 'Noto Sans TC', 'Noto Serif TC', system-ui, -apple-system, 'Segoe UI',
+  Roboto, 'Helvetica Neue', 'Noto Sans', 'Liberation Sans', Arial, sans-serif, 'Apple Color Emoji',
+  'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji' !default;
+
+
+
 // stylelint-enable value-keyword-case
 $font-family-base:            var(--#{$prefix}font-sans-serif) !default;
 $font-family-code:            var(--#{$prefix}font-monospace) !default;
@@ -900,7 +910,8 @@ $input-padding-y-lg:                    $input-btn-padding-y-lg !default;
 $input-padding-x-lg:                    $input-btn-padding-x-lg !default;
 $input-font-size-lg:                    $input-btn-font-size-lg !default;
 
-$input-bg:                              var(--#{$prefix}body-bg) !default;
+// $input-bg:                              var(--#{$prefix}body-bg) !default;
+$input-bg: transparent !default; // *custom
 $input-disabled-color:                  null !default;
 $input-disabled-bg:                     var(--#{$prefix}secondary-bg) !default;
 $input-disabled-border-color:           null !default;
@@ -1292,8 +1303,10 @@ $dropdown-dark-header-color:        $gray-500 !default;
 // Pagination
 
 // scss-docs-start pagination-variables
-$pagination-padding-y:              .375rem !default;
-$pagination-padding-x:              .75rem !default;
+// $pagination-padding-y:              .375rem !default;
+// $pagination-padding-x:              .75rem !default;
+$pagination-padding-y: 0rem !default;
+$pagination-padding-x: 0.5rem !default;
 $pagination-padding-y-sm:           .25rem !default;
 $pagination-padding-x-sm:           .5rem !default;
 $pagination-padding-y-lg:           .75rem !default;
@@ -1302,20 +1315,29 @@ $pagination-padding-x-lg:           1.5rem !default;
 $pagination-font-size:              $font-size-base !default;
 
 $pagination-color:                  var(--#{$prefix}link-color) !default;
-$pagination-bg:                     var(--#{$prefix}body-bg) !default;
+// $pagination-bg:                     var(--#{$prefix}body-bg) !default;
+$pagination-bg: transparent !default; // *custom
 $pagination-border-radius:          var(--#{$prefix}border-radius) !default;
-$pagination-border-width:           var(--#{$prefix}border-width) !default;
-$pagination-margin-start:           calc(#{$pagination-border-width} * -1) !default; // stylelint-disable-line function-disallowed-list
-$pagination-border-color:           var(--#{$prefix}border-color) !default;
+// $pagination-border-width:           var(--#{$prefix}border-width) !default;
+$pagination-border-width: 1px !default; // *custom
+// $pagination-margin-start:           calc(#{$pagination-border-width} * -1) !default; // stylelint-disable-line function-disallowed-list
+$pagination-margin-start: 0.5rem !default; // *custom
+// $pagination-border-color:           var(--#{$prefix}border-color) !default;
+$pagination-border-color: #030303 !default; // *custom
 
-$pagination-focus-color:            var(--#{$prefix}link-hover-color) !default;
-$pagination-focus-bg:               var(--#{$prefix}secondary-bg) !default;
+// $pagination-focus-color:            var(--#{$prefix}link-hover-color) !default;
+$pagination-focus-color: #fbff22 !default; // *custom
+// $pagination-focus-bg:               var(--#{$prefix}secondary-bg) !default;
+$pagination-focus-bg: #030303 !default; // *custom
 $pagination-focus-box-shadow:       $focus-ring-box-shadow !default;
 $pagination-focus-outline:          0 !default;
 
-$pagination-hover-color:            var(--#{$prefix}link-hover-color) !default;
-$pagination-hover-bg:               var(--#{$prefix}tertiary-bg) !default;
-$pagination-hover-border-color:     var(--#{$prefix}border-color) !default; // Todo in v6: remove this?
+// $pagination-hover-color:            var(--#{$prefix}link-hover-color) !default;
+$pagination-hover-color:  #fbff22 !default; // *custom
+// $pagination-hover-bg:               var(--#{$prefix}tertiary-bg) !default;
+$pagination-hover-bg: #030303 !default; // *custom
+// $pagination-hover-border-color:     var(--#{$prefix}border-color) !default; // Todo in v6: remove this?
+$pagination-hover-border-color: #030303 !default; // *custom
 
 $pagination-active-color:           $component-active-color !default;
 $pagination-active-bg:              $component-active-bg !default;

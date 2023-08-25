@@ -4,7 +4,6 @@
   background-position: center center;
   background-size: cover;
 }
-
 .section2-img {
   width: 72px;
   height: 72px;
@@ -21,28 +20,6 @@
 }
 
 
-
-.sparkler-icon {
-  width: 24px;
-  height: 24px;
-}
-.hover-text-decoration:hover{
-  text-decoration: underline;
-}
-.hover-bg-yellow:hover{
-  background-color: yellow;
-  border-radius: 50px;
-}
-
-
-
-
-
-
-
-
-
-
 .bg-online-img {
   background-image: url(../images/event/online.jpg);
   background-repeat:no-repeat;
@@ -51,23 +28,9 @@
   background-size: cover;
 }
 
-.letter-spacing-5 {
-  letter-spacing: 5px;
-}
 
 
 .albums-card-img {
   height: 274px;
-}
-.albums-sticker {
-  rotate: -4deg;
-}
-.albums-card-2 {
-  rotate: 2deg;
-}
-.albums-card-3 {
-  rotate: -2deg;
-}
-.albums-card-4 {
-  rotate: 2deg;
+  object-fit: cover;
 }

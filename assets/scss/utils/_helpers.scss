@@ -11,6 +11,48 @@
 .text-title-content {
   font-family: 'Noto Sans TC', sans-serif;
 }
+.sparkler-icon {
+  width: 24px;
+  height: 24px;
+}
+.hover-text-decoration:hover{
+  text-decoration: underline;
+}
+.hover-bg-yellow:hover{
+  &::before{
+    position: absolute;
+    content: "";
+    background-color: yellow;
+    border-radius: 50px;
+    width: 25px;
+    height: 25px;    
+    left: -8px;
+    z-index: -1;
+  }
+}
+.letter-spacing-5 {
+  letter-spacing: 5px;
+}
+.rotate-356 {
+  rotate: -4deg;
+}
+.rotate-2 {
+  rotate: 2deg;
+}
+.rotate-358 {
+  rotate: -2deg;
+}
+.albums-card-4 {
+  rotate: 2deg;
+}
+
+
+
+
+
+
+
+
 
 .category-button {
   border-left: 4px solid #000 !important;
