@@ -1,8 +1,11 @@
 .bg-banner {
   background-image: url(../images/event/13.jpg);
-  height: 518px;
+  min-height: 518px;
   background-position: center center;
   background-size: cover;
+  @media (max-width:768px) {
+    min-height: 350px;
+  }
 }
 .section2-img {
   width: 72px;
@@ -20,12 +23,8 @@
 }
 
 
-.bg-online-img {
-  background-image: url(../images/event/online.jpg);
-  background-repeat:no-repeat;
+.online-img {
   height: 317px;
-  background-position: center center;
-  background-size: cover;
 }
 
 
